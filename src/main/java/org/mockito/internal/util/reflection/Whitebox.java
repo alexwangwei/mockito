@@ -6,6 +6,7 @@ package org.mockito.internal.util.reflection;
 
 import java.lang.reflect.Field;
 
+@Deprecated
 public class Whitebox {
 
     public static Object getInternalState(Object target, String field) {

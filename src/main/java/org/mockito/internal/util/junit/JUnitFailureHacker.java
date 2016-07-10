@@ -8,6 +8,7 @@ import org.junit.runner.notification.Failure;
 import org.mockito.internal.exceptions.ExceptionIncludingMockitoWarnings;
 import org.mockito.internal.util.reflection.Whitebox;
 
+@Deprecated
 public class JUnitFailureHacker {
 
     public void appendWarnings(Failure failure, String warnings) {
